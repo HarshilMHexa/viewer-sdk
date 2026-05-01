@@ -1,0 +1,19 @@
+{
+  "name": "@hx/three-viewer",
+  "version": "1.0.0",
+  "description": "Three.js viewer SDK",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "three": "^0.164.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/three": "^0.164.0"
+  }
+}
